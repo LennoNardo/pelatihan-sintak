@@ -27,7 +27,7 @@ function HeroSection() {
       <div
         className="hero h-[450px]"
         style={{
-          backgroundImage: "url(src/assets/coffe.jpg)",
+          backgroundImage: "url(/coffe.jpg)",
         }}
       >
         <div className="hero-overlay"></div>
@@ -53,7 +53,7 @@ function Section2() {
       <div className="hero bg-[#fefbea] min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="src\assets\coffee-beans.jpg"
+            src="\coffee-beans.jpg"
             className="w-xl rounded-lg shadow-2xl"
           />
           <div>
@@ -146,7 +146,7 @@ function Section4() {
             <div className="card bg-amber-700 w-96 shadow-sm border-1 border-amber-600">
               <figure className="bg-white">
                 <img
-                  src="src\assets\product.jpeg"
+                  src="\product.jpeg"
                   alt="Shoes"
                   className="rounded-xl"
                 />
@@ -169,7 +169,7 @@ function Section4() {
             <div className="card bg-amber-700 w-96 shadow-sm border-1 border-amber-600">
               <figure className="bg-white">
                 <img
-                  src="src\assets\product2.jpeg"
+                  src="\product2.jpeg"
                   alt="Shoes"
                   className="rounded-xl"
                 />
@@ -192,7 +192,7 @@ function Section4() {
             <div className="card bg-amber-700 w-96 shadow-sm border-1 border-amber-600">
               <figure className="bg-white">
                 <img
-                  src="src\assets\product3.jpeg"
+                  src="\product3.jpeg"
                   alt="Shoes"
                   className="rounded-xl"
                 />
