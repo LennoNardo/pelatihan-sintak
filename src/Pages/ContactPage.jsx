@@ -122,12 +122,12 @@ function ContactSection() {
             onChange={handleChange}
           >
             <option value="">Select a product</option>
-            <option value="website">Sumatra Mandheling</option>
-            <option value="mobile">Java Preanger</option>
-            <option value="ecommerce">Bali Kintamani</option>
-            <option value="consulting">Flores Bajawa</option>
-            <option value="maintenance">Toraja Kalosi</option>
-            <option value="other">Lainnya</option>
+            <option value="Sumatra Mandheling">Sumatra Mandheling</option>
+            <option value="Java Preanger">Java Preanger</option>
+            <option value="Bali Kintamani">Bali Kintamani</option>
+            <option value="Flores Bajawa">Flores Bajawa</option>
+            <option value="Toraja Kalosi">Toraja Kalosi</option>
+            <option value="Lainnya">Lainnya</option>
           </select>
         </div>
 
