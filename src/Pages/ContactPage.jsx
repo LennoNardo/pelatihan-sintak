@@ -41,7 +41,7 @@ function ContactSection() {
       // Simpan data ke Firestore
       await addDoc(collection(db, 'contacts'), formData);
       alert('Pesan berhasil dikirim!');
-      setFormData({ name: '', email: '', subject: '', product:'', messege: '', }); // Reset form
+      setFormData({ name: '', email: '', subject: '', product:'', message: '', }); // Reset form
     } catch (error) {
       console.error('Error submitting form: ', error);
       alert('Terjadi kesalahan. Silakan coba lagi.');
