@@ -22,7 +22,7 @@ function HeroSection() {
       <div
         className="hero h-[450px]"
         style={{
-          backgroundImage: "url(src/assets/What_is_a_latte.jpg)",
+          backgroundImage: "url(/What_is_a_latte.jpg)",
         }}
       >
         <div className="hero-overlay"></div>
@@ -48,7 +48,7 @@ function Section2() {
       <div className="flex items-center justify-center my-10 gap-4">
         {/* Card */}
         <ProductCard
-          image="src\assets\productcard1.jpg"
+          image="\productcard1.jpg"
           title="Sumatra Mandheling"
           from="Aceh, North Sumatra"
           processing="Wet-Hulledd"
@@ -58,7 +58,7 @@ function Section2() {
         />
 
         <ProductCard
-          image="src\assets\productcard2.jpg"
+          image="\productcard2.jpg"
           title="Java Preanger"
           from="West Java"
           processing="Washed"
@@ -68,7 +68,7 @@ function Section2() {
         />
 
         <ProductCard
-          image="src\assets\productcard3.jpg"
+          image="productcard3.jpg"
           title="Bali Kintamani"
           from="Bali"
           processing="Wet Process"
@@ -81,7 +81,7 @@ function Section2() {
       <div className="flex items-center justify-center my-10 gap-4">
         {/* Card */}
         <ProductCard
-          image="src\assets\productcard4.jpg"
+          image="\productcard4.jpg"
           title="Flores Bajawa"
           from="East Nusa Tenggara"
           processing="Semi-Washed"
@@ -91,7 +91,7 @@ function Section2() {
         />
 
         <ProductCard
-          image="src\assets\productcard5.jpg"
+          image="\productcard5.jpg"
           title="Toraja Kalosi"
           from="South Sulawesi"
           processing="Wet-Hulled"
@@ -101,7 +101,7 @@ function Section2() {
         />
 
         <ProductCard
-          image="src\assets\java-preanger.jpg"
+          image="\java-preanger.jpg"
           title="Java Robusta"
           from="East Java"
           processing="Dry Process"
